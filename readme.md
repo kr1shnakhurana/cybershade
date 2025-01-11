@@ -113,16 +113,6 @@ npm run lint
 # Format code
 npm run format
 ```
-
-## 🌐 Environment Variables
-
-Create a `.env` file in the root directory:
-
-```env
-VITE_APP_TITLE=Cyber Shade
-VITE_API_URL=your_api_url
-```
-
 ## 📝 Usage Example
 
 ```jsx
