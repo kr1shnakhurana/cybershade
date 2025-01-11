@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Twitter, Youtube, Instagram, Heart } from 'lucide-react';
+import { Github, Twitter, Youtube, Instagram, Heart, Code } from 'lucide-react';
 import { Logo } from './common/Logo';
 
 const Footer = () => {
@@ -7,7 +7,8 @@ const Footer = () => {
     { icon: <Github size={20} />, href: '#' },
     { icon: <Twitter size={20} />, href: '#' },
     { icon: <Youtube size={20} />, href: '#' },
-    { icon: <Instagram size={20} />, href: '#' }
+    { icon: <Instagram size={20} />, href: '#' },
+    {icon: <Code size={20} />, href: 'https://krishnakhurana.us.kg'}
   ];
 
   const footerLinks = [
