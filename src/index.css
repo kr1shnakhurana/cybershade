@@ -1,0 +1,16 @@
+@import './fonts/cyberpunk.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-black;
+  }
+}
+
+/* Rest of your existing CSS */
