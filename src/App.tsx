@@ -3,6 +3,7 @@ import Preloader from './components/Preloader';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import TransitionSection from './components/TransitionSection';
+import Transitionsec from './components/transition';
 import About from './components/About';
 import Footer from './components/Footer';
 import Features from './components/features';
@@ -20,6 +21,7 @@ function App() {
           <Hero />
           <TransitionSection />
           <About />
+          <Transitionsec />
           <Features />
           <Footer />
         </>
